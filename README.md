@@ -1,6 +1,28 @@
-# Buscando el pinchazo
+# Aprenent Rust
 
-ProgramaMe: Programa de la Nacional del año 2018, realizado en la Universidad Complutense de Madrid.
+Aquest és el meu segon programa en Rust. Fins ara no n'havia fet mai cap i per tant segurament hi faig algunes coses que poden ser fetes d'una forma més òptima.
+
+## Compilar
+
+1.  Primer s'ha d'instal·lar Rust. La forma més senzilla sol ser seguir les instruccions de [la seva web](https://www.rust-lang.org/es-ES/) ;-). també estan en castellà però en resum consisteixen en executar:
+
+    curl https://sh.rustup.rs -sSf | sh
+
+2.  clonar el repositori
+
+3.  compilar i executar el programa (per defecte agafa in.txt com a paràmetre)
+
+    cargo run --release
+
+Un cop compilat l'executable es trobarà disponible a **target/release/** i es pot executar sense fer servir cargo.
+
+A més se li pot passar un fitxer amb les dades a provar com a paràmetre:
+
+    target/release/rebenton in.txt
+
+# Exercici: Buscando el pinchazo
+
+El programa és un dels exercicis del ProgramaMe de l'any 2018: Programa de la Nacional del año 2018, fet a la Universidad Complutense de Madrid.
 
 > Tiempo máximo: 1,000 s Memoria máxima: 4096 KiB
 
